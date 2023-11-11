@@ -47,9 +47,9 @@ print(csv)  # Isso imprimirá "1,2,3,4,5"
 # O método join() é muito útil quando você precisa construir strings a partir de elementos em uma sequência, economizando tempo e tornando o código mais legível.
 
 # INDEXAÇÃO EM PYTHON:
-# Em Python, a indexação usando : em uma sequência, como uma string, lista ou tupla, é usada para criar fatias (slices) dessa sequência. A notação geral é [começo:fim],
-# onde:
-# começo: O índice onde a fatia começa (inclusive).
+# Em Python, a indexação usando : em uma sequência, como uma string, lista ou tupla, é usada para criar fatias (slices) dessa sequência. A notação geral é [começo:fim], onde:
+# Indexação serve para definir o intervalo dos dados que você quer, por exemplo que os numeros na lista que estao entre o segundo e o ultimo indice
+#começo: O índice onde a fatia começa (inclusive).
 # fim: O índice onde a fatia termina (exclusivo).
 # Se você omitir começo, a fatia começará do início da sequência. Se você omitir fim, a fatia irá até o final da sequência. Veja alguns exemplos:
 minha_string = "Olá, Mundo!"
@@ -182,3 +182,8 @@ elif media >= 5 :
     print("Recuperação")
 else:
     print("Reprovado")
+
+    print(f"A sua média é {media} e você está em {resultado}.")
+else:
+    print("As notas devem estar entre 0 e 10")
+    print
